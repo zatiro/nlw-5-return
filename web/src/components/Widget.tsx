@@ -4,7 +4,6 @@ import { Popover } from '@headlessui/react'
 import { WidgetForm } from './WidgetForm/index'
 
 export function Widget() {
-  console.log('widget')
   return (
     <Popover className='absolute bottom-4 right-4 md:bottom-8 md:right-8 flex flex-col items-end'>
       <Popover.Panel>{<WidgetForm />}</Popover.Panel>
